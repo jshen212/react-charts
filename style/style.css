@@ -1,0 +1,49 @@
+/*general*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+/*header*/
+.header {
+  background-color: black;
+  color: white;
+  height: 3em;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-items {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-align: center;
+}
+
+.header-items > li {
+  margin: 1em 5em;
+  vertical-align: middle;
+}
+
+/*main search*/
+.main-search-container {
+  letter-spacing: 2px;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.main-search {
+  width: 60%;
+}
+
+/*charts content*/
+.charts-container {
+  margin: 2em 0;
+  text-align: center;
+}
